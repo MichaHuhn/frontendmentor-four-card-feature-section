@@ -28,6 +28,7 @@ article {
   }
   
   .heading {
+    color: var(--color-very-dark-blue);
     font-size: 1.25rem;
     font-weight: 600;
   }

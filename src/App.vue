@@ -69,6 +69,7 @@ header {
   }
   
   h1 {
+    color: var(--color-very-dark-blue);
     font-size: 1.5rem;
     font-weight: 200;
     line-height: 1.425;
