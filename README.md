@@ -33,8 +33,8 @@ Mobile:
 
 ### Links
 
-- Live site: [Add live site URL here](https://your-live-site-url.com)
-- Challenge solution: [Add solution URL here](https://your-solution-url.com)
+- Live site: <https://michahuhn.github.io/frontendmentor-four-card-feature-section>
+- Challenge solution: <https://www.frontendmentor.io/solutions/four-card-feature-section-using-vue-LOSfPM7KvA>
 
 ## My process
 
