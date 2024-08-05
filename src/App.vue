@@ -61,16 +61,17 @@ import CalculatorIcon from '@/assets/icons/calculator.svg';
 @import '@/styles/base/media-queries';
 
 header {
-  margin-block: calc(85 / 16 * 1rem) calc(76 / 16 * 1rem);
+  margin-block-end: calc(76 / 16 * 1rem);
   text-align: center;
   
   @media #{$laptop-and-bigger} {
-    margin-block: 5rem 4rem;
+    margin-block-end: 4rem;
   }
   
   h1 {
     font-size: 1.5rem;
     font-weight: 200;
+    line-height: 1.425;
     letter-spacing: 0.17px;
     
     @media #{$laptop-and-bigger} {
@@ -83,14 +84,13 @@ header {
   }
   
   .description {
-    margin-block-start: 1rem;
+    margin-block-start: calc(13 / 16 * 1rem);
     line-height: calc(25 / 15);
     letter-spacing: 0.1px;
   }
 }
 
 main {
-  margin-block-end: calc(85 / 16 * 1rem);
   display: flex;
   justify-content: center;
   
@@ -132,5 +132,9 @@ main {
   
   max-width: calc(100% - (var(--spacing-inline) * 2));
   margin-inline: auto;
+}
+
+:global(body) {
+  padding-block: calc(82 / 16 * 1rem);
 }
 </style>
