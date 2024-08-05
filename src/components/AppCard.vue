@@ -17,6 +17,7 @@ article {
   max-width: calc(350 / 16 * 1rem);
   aspect-ratio: 1.4;
   padding: 1.5rem 1.75rem 1.75rem calc(28 / 16 * 1rem);
+  background-color: white;
   border-top: 3px solid var(--border-color);
   border-radius: 8px;
   box-shadow: 0 15px 30px -11px hsl(213deg 47% 67% / 0.5);
